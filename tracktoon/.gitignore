@@ -10,3 +10,6 @@
 *.json
 
 /src/firebaseConfig.js
+
+/firebase.json
+/.firebase
