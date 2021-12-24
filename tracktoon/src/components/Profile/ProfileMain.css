@@ -1,0 +1,261 @@
+.profile-main {
+    width:100%;
+    height:1500px;
+    background: #1e1e1e;
+    position: relative;  
+    color: #FFFFFF;
+   
+}
+.profile-header{
+    height: 150px;
+   
+}
+.profile-about{
+
+    color:#FFFFFF;
+    height:100%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 150px 200px auto; 
+}
+
+.profile-picture{
+    
+    width:150px;
+    height:150px;
+   
+
+}
+
+.profile-user-info{
+   
+    height:100%;
+    width: 300px;
+    padding-top:60px;
+    padding-left: 70px;
+    margin: auto;
+    margin-left: 170px;
+    
+}
+.profile-content
+{
+    width:70%;
+    height: 100vh;
+    margin-top: 100px;
+    position: relative; 
+    margin: 0 auto;
+    padding: 10px;
+    color: #FFFFFF;
+}
+.profile-left{
+    display: grid;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width:500px;
+    position: relative;
+    float:left;
+    border-radius: 10px;
+   background: #292929;
+   
+}
+.profile-right{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width:500px;
+    position: relative;
+    float:right;
+    background: #292929;
+    border-radius: 10px;
+}
+.filler{
+    background-color: #3AAFA9;
+    color:#292929;
+    font-size: 1.5rem;
+    align-content: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    width:50px;
+    height:50px;
+    margin-top: 20px;
+    margin-left:20px;
+    border-radius: 5px 0 0 5px;
+    position: relative;
+    float: left;
+}
+.list-link {
+    width: 300px;
+    height: 50px;
+    margin-left: 70px;
+    margin-top: 20px;
+    align-items: center;
+    padding-top: 15px;
+    border-radius: 0 5px 5px 0;
+    background-color: #1e1e1e;
+   
+}
+.link-dir {
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 20px;
+   
+}
+.fa-user-circle{
+    font-size: 5rem;
+    padding: 35px;
+}
+
+.stat-element{
+    
+    border-radius: 5px;
+    width: 100px;
+    height:50px;
+}
+.title-el{
+   text-align: center;
+   margin: auto;
+   border-radius: 5px 5px 0 0;
+   background-color:  #3AAFA9;
+   color: #1e1e1e;
+   padding-top: 8px;
+}
+
+.count-el{
+    background-color: #1e1e1e;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    padding-top: 10px;
+    border-radius:  0 0 5px 5px; 
+}
+
+.stat-option{
+    
+    display: grid;
+    width: 400px;
+    grid-template-columns: repeat(4,100px);
+    height: 30px;
+    text-align: center;
+    list-style: none;
+    font-size: 15px;
+    border-radius: 5px 5px 0 0;
+    background-color: #3AAFA9;    
+    color: #1e1e1e;
+ 
+ }
+
+
+.stat-option li {
+    background-color: none;
+    padding-top: 8px;
+    
+}
+
+
+.stat-values{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    list-style: none;
+    color:#FFFFFF;
+    text-align: center;  
+    background-color: none; 
+    
+    
+}
+
+.stat-values li{
+    background-color: #1e1e1e; 
+    padding-top: 8px;
+    height: 30px;
+}
+
+
+.comp-val{
+    height: 20px;
+    border-radius:  0 0 0 5px; 
+
+}
+
+
+.drop-val {
+    height: 20px;
+    border-radius:  0 0 05px; 
+  
+}
+
+.fa-plus{
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 350px;
+}
+
+.add-user-list{
+    position: fixed;
+    width:100vw;
+    height: 100vh;
+    z-index: 10;
+    margin-bottom: 100px;
+    background: rgba(0,0,0,0.8);
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.add-list{
+    position: relative;
+    top:100px;
+    margin: auto;
+    background-color: #1e1e1e;
+    color: #FFFFFF;
+    height: 30vh;
+    width: 400px;
+    border-radius: 5px;
+}
+.add-list label {
+    margin-left:20px;
+    margin-top: 20px;
+}
+
+.add-list input {
+    width: 200px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: #292929;
+    color: white;
+    outline: none;
+    border:none;
+}
+
+.add-list h4{
+    margin: 20px;
+    padding-top: 30px;
+}
+
+.add-button{
+    border: none;
+    padding: 2px;
+    color:#292929;
+    background-color: #3AAFA9;
+    border-radius:5px;
+    line-height: 1.5;
+    white-space: nowrap;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 270px;
+}
+
+
+@media screen and (max-width: 1024px){
+
+    .profile-user-info{
+        margin-left: 50px;
+    }
+    .profile-right {
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass', sans-serif,'Nanum Gothic Coding', monospace;
+   
+}
+
+
+@media screen and (max-width: 1024px) {
+    
+    body{
+        max-width: 100%;
+        overflow-x: hidden;
+       
+    }
+
+  }

@@ -1,0 +1,43 @@
+.dotnav {
+    position: fixed;
+    right:0;
+    top:50%;
+    z-index: 100;
+}
+.dotnav ul {
+	position: relative;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	cursor: default;
+}
+
+.dotnav li {
+	position: relative;
+	display: block;
+	float:inline-start;
+	margin: 20px 16px;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+
+.dotnav li:hover {
+    color: #3AAFA9;
+}
+
+.dotnav li .active {
+    color:#3AAFA9;
+}
+
+
+@media screen and (max-width: 1024px){
+    .dotnav {
+       display:none;
+    }
+
+  
+    
+}

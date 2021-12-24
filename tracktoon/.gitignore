@@ -1,0 +1,12 @@
+## Ignore File ##
+
+*.log
+*.bak
+
+#folders
+/node_modules
+/logs
+
+*.json
+
+/src/firebaseConfig.js

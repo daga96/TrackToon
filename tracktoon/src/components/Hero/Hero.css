@@ -1,0 +1,75 @@
+.hero {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content:left;
+  font: 16px 'Noto Sans KR', sans-serif;
+  color: #292929;
+  text-align: center;
+}
+
+.hero-back{
+    position: relative;
+    background: #1e1e1e;
+    color: #FFFFFF;
+    width:100%;
+    height: 100%;
+    -webkit-box-align:center;
+    -webkit-box-pack:center;
+     display:-webkit-box;
+   
+}
+.hero-back> svg {
+    display:block; 
+    position: absolute;
+    top:0px; 
+      
+}
+@keyframes animateWave {
+    0% {
+      transform: scale(1,0);
+    }
+    100% {
+      transform: scale(1,1);
+    }
+  }
+  .hero-back > svg {
+    display: block;
+    transform-origin: top;
+    animation: animateWave 1500ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
+  }
+
+.text-center h1 {
+    font-size: 45px;
+    padding: 10px 0 10px 0;
+}
+
+.text-center h2 {
+    color: #3AAFA9;
+    font-size: 20px;   
+}
+
+
+.signup {
+    display: block;    
+    text-align: center;
+    height: 49px;
+    padding: 0 9px 0 20px;
+    width: 200px;
+    line-height: 50px;
+    border-radius: 25px 25px;
+    border: 2px solid #3AAFA9;
+    color: #3AAFA9;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: 25px;    
+       
+}
+
+.signup:hover {
+    transform:scale(1.05);
+}
+
+

@@ -1,0 +1,59 @@
+.signup-main {
+    width:100%;
+    height:90vh;
+	background: #1e1e1e;
+    margin: 0;
+    position: relative;
+    -webkit-box-align:center;
+    -webkit-box-pack:center;
+    display:-webkit-box;
+
+
+}
+
+.signup-button {
+    background: #1e1e1e;
+	display: block;    
+    text-align: center;
+    height: 49px;
+    width: 200px;
+    line-height: 50px;
+    border-radius: 25px 25px;
+    border: 2px solid #3AAFA9;
+    color: #3AAFA9;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: 25px;   
+}
+
+.signup-button:hover {
+	transform: scale(1.05);
+}
+span {
+    color:#FFFFFF;
+    padding-top: 20px;
+}
+
+input {
+    color:#FFFFFF;
+    
+}
+
+.validation-text{
+color: #e64938;
+font-size: 12px;
+letter-spacing: -.5px;
+line-height: 15px;
+}
+
+@media screen and (max-width: 600px){
+   
+    .container-form {
+        width:100vw;
+        -webkit-box-align:center;
+        -webkit-box-pack:center;
+        display: -webkit-box;
+        overflow: hidden;
+    }
+}
