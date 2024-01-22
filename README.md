@@ -1,7 +1,7 @@
-TrackToon: A Dynamic Webtoon Reading List Manager
+## TrackToon: A Dynamic Webtoon Reading List Manager
 
 Overview:
-TrackToon is an innovative web application designed as part of a university project, serving as a personalized reading list for Korean webtoons. Developed using React, the project leverages React Hooks and the Context API to provide a seamless and responsive user experience. The application's main functionality revolves around scraping webtoon information through Python Selenium and BeautifulSoup, presenting users with a comprehensive list on the Browse page.
+TrackToon is a web application designed as part of a university project, serving as a personalized reading list for Korean webtoons. Developed using React, the project leverages React Hooks and the Context API to provide a seamless and responsive user experience. The application's main functionality revolves around scraping webtoon information through Python Selenium and BeautifulSoup, presenting users with a comprehensive list on the Browse page.
 
 Key Features:
 
