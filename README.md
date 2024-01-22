@@ -1,10 +1,13 @@
-# TrackToon
+TrackToon: A Dynamic Webtoon Reading List Manager
 
-This application was a part of the university project. It is type of a read list for Korean webtoons. Website was made using using React, implementing React Hooks and Context API.
-It uses Python Selenium and BeautifulSoup to scrap webtoons information and show them in the Browse page.
+Overview:
+TrackToon is an innovative web application designed as part of a university project, serving as a personalized reading list for Korean webtoons. Developed using React, the project leverages React Hooks and the Context API to provide a seamless and responsive user experience. The application's main functionality revolves around scraping webtoon information through Python Selenium and BeautifulSoup, presenting users with a comprehensive list on the Browse page.
 
+Key Features:
 
-Project was created for a Korean class thus it is partially in Korean.
+React-powered Interface: Utilizing the power of React, TrackToon ensures a modern, interactive, and user-friendly interface.
+React Hooks and Context API: The application adopts the latest React features, making the codebase efficient, modular, and easy to maintain.
+Webtoon Information Scraper: Python Selenium and BeautifulSoup work in tandem to scrape relevant information from various webtoons, offering users a centralized hub for discovering and tracking their favorite series.
 
 Visit website here: https://tracktoon-a462e.web.app/
 
